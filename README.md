@@ -1,4 +1,8 @@
-Railway Start Command:
-python railway_regime_runner.py
+# BTC Overextension Quantile Study
 
-This study compares 2025 vs 2026 regime features for the locked CLOSE / TP1.5% / SL1% / 12h BTC breakout setup.
+Railway Start Command:
+
+    python railway_overextension_runner.py
+
+This study freezes quartile boundaries from 2021-2024 only, then applies them unchanged to 2025 and 2026.
+It does not optimize a new cutoff.
