@@ -1,3 +1,5 @@
-Railway Start Command: python railway_locked_runner.py
+Railway Start Command:
 
-Tests exactly 12 locked variants: CLOSE/RETEST x TP 1.5%/2% x time stop 6/12/24h; SL 1%; filters fixed from prior OOS study.
+python railway_locked_runner.py
+
+Fixed version: uses trend_stack_score instead of x.stack, avoiding pandas method collision.
