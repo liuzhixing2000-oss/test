@@ -1,5 +1,4 @@
 Railway Start Command:
+python railway_regime_runner.py
 
-python railway_locked_runner.py
-
-Fixed version: uses trend_stack_score instead of x.stack, avoiding pandas method collision.
+This study compares 2025 vs 2026 regime features for the locked CLOSE / TP1.5% / SL1% / 12h BTC breakout setup.
