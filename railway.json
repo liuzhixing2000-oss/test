@@ -1,1 +1,8 @@
-{"build":{"builder":"RAILPACK"},"deploy":{"startCommand":"python runner.py"}}
+{
+  "build": {
+    "builder": "RAILPACK"
+  },
+  "deploy": {
+    "startCommand": "python runner.py"
+  }
+}
