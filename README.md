@@ -1,3 +1,5 @@
-Railway Start Command: python railway_q4_confirmation_runner.py
+Railway Start Command:
 
-Locked Q4 distance > 3.147%; TP1%; SL1%; 12h max hold; compares seven predefined failure-confirmation entries.
+python railway_q4_short_runner.py
+
+Tests locked Q4 overextension states for forward path and contrarian SHORT edge.
